@@ -1,0 +1,209 @@
+body{
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.i{
+    background: url(img/netflix\ cover.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+.child{
+    background-color: rgba(0, 0, 0,.7);
+    width: inherit;
+    height: inherit;
+}
+.i header img{
+    float: left;
+    width: 150px;
+    padding: 20px;
+}
+.i header section{
+    float: right;
+    display: flex;
+    padding: 20px;
+}
+.i header section select{
+    width: 80px;
+    height: 35px;
+    background-color: rgba(0, 0, 0,.6);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.i header section input{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(229,9,20);
+    color: white;
+    border: 1px solid rgb(229,9,20);
+    border-radius: 5px;
+}
+.i .text{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+.i .text h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.i .text h3{
+    font-size: 24px;
+}
+.i .text p{
+    font-size: 18px;
+}
+.i .textbox{
+    width: 650px;
+    height: 52px;
+    background-color: rgb(229,9,20);
+    margin: auto;
+    display: flex;
+
+}
+.i .textbox input{
+    font-size: 18px;
+    padding: 0px 10px;
+    width: 400px;
+    height: 52px;
+    border: none; 
+}
+.i .textbox .button{
+    width: 250px;
+    height: 51px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 18px;
+}
+hr{
+    border: 5px solid rgb(32, 32, 32);
+}
+.ii{
+    width: 100%;
+    height: 400px;
+    text-align: justify;
+    margin: auto;
+    /* padding: 0px 20px; */
+    display: flexbox;
+}
+.ii section{
+    float: left;
+    width: 450px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.ii img{
+    float: right;
+    width: 500px;
+    margin-right: 100px;
+}
+.ii section h1{
+    font-size: 45px;
+}
+.ii section p{
+    font-size: 24px;
+}
+hr{
+    border: 5px solid rgb(32, 32, 32);
+}
+.iii{
+    width: 100%;
+    height: 400px;
+    text-align: justify;
+    margin: auto;
+    /* padding: 0px 20px; */
+    display: flexbox;
+}
+.iii section{
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.iii img{
+    float: left;
+    width: 500px;
+    margin-left: 50px;
+}
+.iii section h1{
+    font-size: 45px;
+}
+.iii section p{
+    font-size: 24px;
+}
+hr{
+    border: 5px solid rgb(32, 32, 32);
+}
+.vi h1{
+    font-size: 45px;
+    text-align: center;
+}
+.vi section{
+    margin: auto;
+    width: 800px;
+}
+.vi details{
+    width: 800px;
+    background-color: rgb(32, 32, 32);
+    padding: 25px 20px;
+    margin-top: 10px;
+    display: block;
+}
+.vi details summary , p {
+    font-size: 24px;
+}
+.vi p{
+    font-size: 18px;
+    margin-top: 70px;
+}
+.vi .textboxI{
+    width: 650px;
+    height: 52px;
+    background-color: rgb(229,9,20);
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+}
+.vi .textboxI input{
+    width: 400px;
+    height: 52px;
+    border: none;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.vi .textboxI .button{
+    width: 250px;
+    height: 51px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 18px;
+}
+.vii p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+}
+.vii section ul{
+    display: inline-block;
+    margin-right: 50px;
+}
+.vii section li{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+}
+.vii{
+    width: 900px;
+    margin-left: 200px;
+}
+.vii hr{
+    border: 1px solid rgb(32, 32, 32);
+}
+
